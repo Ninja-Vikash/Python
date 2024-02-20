@@ -15,7 +15,6 @@ def Calculate_avg(Num1, Num2):
         return avg
     
     elif (Num2 > Num1):
-        avg = Num1 - (Num1 - Num2)/2
         diff = (Num2 - Num1)
         half = diff/2
         avg = Num2 - half
